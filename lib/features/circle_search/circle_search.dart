@@ -49,7 +49,7 @@ class _CircleSearchPageState extends State<CircleSearchPage> {
         'POST',
         Uri.parse(
           'http://192.168.0.106:8000/circle_search',
-        ), // Replace with your FastAPI host
+        ),
       );
 
       request.files.add(
